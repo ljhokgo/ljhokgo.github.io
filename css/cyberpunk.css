@@ -10751,6 +10751,11 @@ article.media .media-content .title {
   margin: 0;
   line-height: inherit;
 }
+article.article .title {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -1.4px;
+}
 article.article .article-meta,
 article.article .article-tags {
   color: #848484;
@@ -10764,10 +10769,13 @@ article.article .content {
   font-size: 1.1rem;
 }
 article.article .content h1 {
-  font-size: 1.75em;
+  font-size: 1.95em;
+  font-weight: 600;
+  margin-top: 50px;
 }
 article.article .content h2 {
   font-size: 1.5em;
+  margin-top: 35px;
 }
 article.article .content h3 {
   font-size: 1.25em;
