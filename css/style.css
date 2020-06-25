@@ -412,7 +412,7 @@ button,
 input,
 select,
 textarea {
-  font-family: 'NanumSquareRound', "Helvetica Neue", sans-serif;
+  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif 'NanumSquareRound',;
 }
 code,
 pre {
@@ -1057,13 +1057,13 @@ a.has-text-grey-lightest:focus {
   font-weight: 700 !important;
 }
 .is-family-primary {
-  font-family: 'NanumSquareRound', "Helvetica Neue", sans-serif !important;
+  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif 'NanumSquareRound',  !important;
 }
 .is-family-secondary {
-  font-family: 'NanumSquareRound', "Helvetica Neue", sans-serif !important;
+  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif 'NanumSquareRound',  !important;
 }
 .is-family-sans-serif {
-  font-family: 'NanumSquareRound', "Helvetica Neue", sans-serif !important;
+  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif 'NanumSquareRound',  !important;
 }
 .is-family-monospace {
   font-family: monospace !important;
@@ -10789,9 +10789,13 @@ article.article .content pre {
   font-size: 0.85em;
 }
 article.article .content code {
-  padding: 0;
-  background: transparent;
   overflow-wrap: break-word;
+  font-size: 0.9rem;
+  background-color: #0f4c81;
+  color: #f8f8f2;
+  border-radius: 0.3em;
+  padding: 3px 5px 2px;
+  white-space: nowrap;
 }
 article.article .content blockquote.pullquote {
   float: right;
@@ -11401,4 +11405,8 @@ figure.highlight .section {
   .section {
     padding: 1.5rem 1rem;
   }
+}
+img[src$="centerme"] {
+  display: block;
+  margin: 0 auto;
 }
